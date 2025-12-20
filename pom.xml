@@ -13,6 +13,15 @@
 		<sonar.host.url>http://18.181.164.81:9000/</sonar.host.url>
 
 	</properties>
+		<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-war-plugin</artifactId>
+				<version>3.4.0</version> <!-- or latest stable -->
+			</plugin>
+		</plugins>
+	</build>
 	<dependencies>
 
 		
